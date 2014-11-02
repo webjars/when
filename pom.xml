@@ -11,7 +11,7 @@
     <packaging>pom</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>when-parent</artifactId>
-    <version>3.2.3-SNAPSHOT</version>
+    <version>3.5.2-SNAPSHOT</version>
     <name>When Parent</name>
     <description>WebJar for when.js Parent</description>
     <url>http://webjars.org</url>
@@ -40,7 +40,7 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>3.2.2</upstreamVersion>
+        <upstreamVersion>3.5.2</upstreamVersion>
         <sourceUrl>https://github.com/cujojs/when/archive</sourceUrl>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
         <extractDir>${project.build.directory}/when-${upstreamVersion}</extractDir>
