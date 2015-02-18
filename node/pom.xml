@@ -19,7 +19,14 @@
             {
                 "paths": {
                     "when": "when"
-                }
+                },
+                "packages": [
+                    {
+                        "name": "when",
+                        "location": "when",
+                        "main": "when"
+                    }
+                ]
             }
         </requirejs>
     </properties>
